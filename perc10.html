@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Percobaan IV-1. CSS: Layout -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS: Layout</title>
+    <style>
+        body {
+            width: 750px;
+            font-family: Helvetica, Verdana, sans-serif;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        .berita {
+            -webkit-column-count: 3; /* Chrome, Safari, Opera */
+            -moz-column-count: 3;    /* Firefox */
+            column-count: 3;
+
+            -webkit-column-gap: 18px; /* Chrome, Safari, Opera */
+            -moz-column-gap: 18px;    /* Firefox */
+            column-gap: 18px;
+
+            -webkit-column-rule: 1px solid blue; /* Chrome, Safari, Opera */
+            -moz-column-rule: 1px solid blue;    /* Firefox */
+            column-rule: 1px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Taman Kupu-Kupu Gita Persada</h1>
+    <p class="berita">
+        Indonesia, known as a mega biodiversity country, has more than 6,000 species of butterflies. Many of these 
+        species are on the brink of extinction. Gita Persada Butterfly Park was founded to counter the extinction. 
+        Gita Persada Butterfly Park, founded in 1997 by Anshori Djausal and Herawati Soekardi, serves as a model 
+        for conserving butterflies. The park has since been successful in conserving more than 180 species of 
+        Sumatran butterflies. This number increases every year along with research on butterfly food plants, 
+        micro-habitats, and reproduction. The park also becomes a place for education, especially environmental 
+        education, research, and tourist attraction.
+    </p>
+</body>
+</html>

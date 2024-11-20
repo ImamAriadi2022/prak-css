@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <!-- Percobaan III-8. CSS: List -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS: List</title>
+    <style>
+        /* Gaya untuk daftar terurut */
+        ol {
+            list-style-type: lower-roman;
+        }
+
+        /* Gaya khusus untuk daftar dengan id "li1" */
+        ol#li1 {
+            list-style-type: upper-alpha;
+        }
+
+        /* Gaya untuk daftar tidak terurut */
+        ul {
+            list-style-type: square;
+        }
+
+        /* Gaya khusus untuk daftar dengan id "bullet" */
+        ul#bullet {
+            list-style-image: url("images/bullet.png");
+        }
+
+        /* Gaya untuk item daftar */
+        li {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h2>Daftar-1</h2>
+    <ol>
+        <li>Perihal 1</li>
+        <li>Perihal 2</li>
+        <li>Perihal 3</li>
+        <li>Perihal 4</li>
+        <li>Perihal 5</li>
+    </ol>
+
+    <h2>Daftar-2</h2>
+    <ul>
+        <li>Perihal 1</li>
+        <li>Perihal 2</li>
+        <li>Perihal 3</li>
+        <li>Perihal 4</li>
+        <li>Perihal 5</li>
+    </ul>
+
+    <h2>Daftar-3</h2>
+    <ol id="li1">
+        <li>Perihal 1</li>
+        <li>Perihal 2</li>
+        <li>Perihal 3</li>
+        <li>Perihal 4</li>
+        <li>Perihal 5</li>
+    </ol>
+
+    <h2>Daftar-4</h2>
+    <ul id="bullet">
+        <li>Perihal 1</li>
+        <li>Perihal 2</li>
+        <li>Perihal 3</li>
+        <li>Perihal 4</li>
+        <li>Perihal 5</li>
+    </ul>
+</body>
+</html>
